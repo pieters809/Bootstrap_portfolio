@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>About Me</title>
+  <body style="background-color:rgb(189, 189, 189);">
+
 </head>
+
 <body>
-    
+  <!-- Navbar on top of page -->
+  <div class='container col-md-12'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0;">
+      <a href="#" class="navbar-brand ml-5" style="background-color: aqua; padding: 20px;"> Jose Pieters</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon ">
+  
+        </span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+  
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> About</a>
+          </li>
+  
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link"> Portfolio</a>
+          </li>
+  
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact</a>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
+  <!-- About me-->
+  <div class="container-fluid mb-5">
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 mt-4">
+        <img src="./assets/jp.jpg" id="profilepicture" alt="profile picture">
+        
+
+      </div>
+      <div class="col-md-3 mt-4 border" style="background-color: black;" id="profilelinks;">>
+        <h4><a href="https://github.com/pieters809"target=”_blank”> Github</a></h4> <br>
+        <h4><a href="https://www.linkedin.com/in/jose-pieters-660813138/"target=”_blank”> LinkedIn</a></h4>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 mt-4 border" id="aboutmeHolder">
+        <p class="mt-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolor neque molestias officia deserunt sint facilis obcaecati reiciendis illo blanditiis ad, eaque illum. Nam blanditiis dolorem nulla, odit non nisi?
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel aperiam distinctio in incidunt voluptates nam dolor architecto, sit, natus adipisci facilis magni ullam, ut eum reiciendis numquam accusantium! Omnis?
+        </p>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+
 </body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom ">
+  </nav>
+
+
 </html>
